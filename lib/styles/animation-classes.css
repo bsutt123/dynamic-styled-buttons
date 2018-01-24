@@ -1,0 +1,31 @@
+.rotate-180--nc.rotate-180--nc {
+  transform: rotate(0deg);
+}
+
+.rotate-180--c.rotate-180--c {
+  transform: rotate(180deg);
+}
+
+.rotate-neg-180--nc.rotate-neg-180--nc {
+  transform: rotate(0deg);
+}
+
+.rotate-neg-180--c.rotate-neg-180--c {
+  transform: rotate(-180deg);
+}
+
+.rotate-360--nc.rotate-360--nc {
+  transform: rotate(0deg);
+}
+
+.rotate-360--c.rotate-360--c {
+  transform: rotate(360deg);
+}
+
+.rotate-neg-360--nc.rotate-neg-360--nc {
+  transform: rotate(0deg);
+}
+
+.rotate-neg-360--c.rotate-neg-360--c {
+  transform: rotate(-360deg);
+}

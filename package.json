@@ -1,7 +1,7 @@
 {
-  "name": "react-dynamic-buttons",
+  "name": "dynamic-styled-buttons",
   "version": "0.1.0",
-  "description": "React Buttons with present CSS Transitions",
+  "description": "Dyanmic React Buttons built using styled-components",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "build:watch": "babel lib -w -d build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -40,6 +40,8 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "styled-components": "^2.4.0"
+    "react-icons": "^2.2.7",
+    "styled-components": "^2.4.0",
+    "styled-components-theme": "^1.0.5"
   }
 }
